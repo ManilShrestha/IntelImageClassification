@@ -1,4 +1,5 @@
 # Image Classification of Scenes Based on VGG-16 Network Architecture and Transfer Learning
+All the images listed in the paper can be generated through the notebooks in this repository.
 ## Introduction to notebooks
 There are two notebooks in this repository:
 1. intel_image_classification_own_training.ipynb - Classifier with VGG16 network (trained from scratch). 
