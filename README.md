@@ -25,12 +25,12 @@ After mounting the drive, need to update the variables in "Section: Setup Parame
 Since the model has been setup to run on GPUs, the collab notebook needs to be in GPU mode. 
 Go to Runtime > Change Runtime > Select "GPU" as hardware accelerator.
 
-## Training the Dataset
+## Train the model
 In order to train the model, please run cells in sections 1,2,3, and 4 in order, in section 4 there are multiple optimizers defined, please run the one you want model to be trained on.
 Training time depends on the number of epochs defined in the steps. 
 
 ## Classify Images
-Once the training completes run cells in section 5 to start classifying the images.
+Once the training completes run cells in section 5 to start classifying the images. There are plenty of examples for reference on classifying an image using the trained model.
 
 ## Contact
-ms5267@drexel.edu
+In case of you have questions, please shoot me an email at: ms5267@drexel.edu
