@@ -11,7 +11,7 @@ Section 3: Loss Functions and Optimizers
 Section 4: Train Classifier
 Section 5: Classify Images
 
-## Data set
+## Environment Setup and Dataset
 You can download the dataset used in this project at: https://www.kaggle.com/puneet6060/intel-image-classification
 The dataset has only train and test folders. In order to run the codes, please separate create a "seg_val" folder and put 3K images into the folder from "seg_test" folder. Load the data folder and files into your google drive.
 
