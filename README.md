@@ -18,9 +18,18 @@ The dataset has only train and test folders. In order to run the codes, please s
 ### Mounting Google Drive
 In order to mount the google drive into collab, please follow the steps here: https://colab.research.google.com/notebooks/io.ipynb
 
-After mounting the drive, need to update the variables in "Section: Setup Parameters and Variables": training_dir, validation_dir, testing_dir to match your folder structure.
+After mounting the drive, need to update the variables in "Section: Setup Parameters and Variables": training_dir, validation_dir, testing_dir to match your folder structure. Also, update the file path "trained_model_file" where you want the model to be saved in.
 
 ### Turn on GPU Mode
 Since the model has been setup to run on GPUs, the collab notebook needs to be in GPU mode. 
 Go to Runtime > Change Runtime > Select "GPU" as hardware accelerator.
 
+## Training the Dataset
+In order to train the model, please run cells in sections 1,2,3, and 4 in order, in section 4 there are multiple optimizers defined, please run the one you want model to be trained on.
+Training time depends on the number of epochs defined in the steps. 
+
+## Classify Images
+Once the training completes run cells in section 5 to start classifying the images.
+
+## Contact
+ms5267@drexel.edu
