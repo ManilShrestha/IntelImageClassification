@@ -18,8 +18,9 @@ The dataset has only train and test folders. In order to run the codes, please s
 ## Mounting Google Drive
 In order to mount the google drive into collab, please follow the steps here: https://colab.research.google.com/notebooks/io.ipynb
 
-After mounting the drive, you need to update the following codes in "Section: Setup Parameters and Variables"
-  training_dir = '/content/drive/MyDrive/ColabNotebooks/IntelImageClassification/seg_train/seg_train'
-  validation_dir = '/content/drive/MyDrive/ColabNotebooks/IntelImageClassification/seg_val/seg_val'
-  testing_dir = '/content/drive/MyDrive/ColabNotebooks/IntelImageClassification/seg_test/seg_test'
-  
+After mounting the drive, need to update the variables in "Section: Setup Parameters and Variables": training_dir, validation_dir, testing_dir to match your folder structure.
+
+# Turn on GPU Mode
+Since the model has been setup to run on GPUs, the collab notebook needs to be in GPU mode. 
+Go to Runtime > Change Runtime > Select "GPU" as hardware accelerator.
+
