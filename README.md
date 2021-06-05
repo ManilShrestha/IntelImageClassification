@@ -20,7 +20,7 @@ In order to mount the google drive into collab, please follow the steps here: ht
 
 After mounting the drive, need to update the variables in "Section: Setup Parameters and Variables": training_dir, validation_dir, testing_dir to match your folder structure.
 
-# Turn on GPU Mode
+## Turn on GPU Mode
 Since the model has been setup to run on GPUs, the collab notebook needs to be in GPU mode. 
 Go to Runtime > Change Runtime > Select "GPU" as hardware accelerator.
 
